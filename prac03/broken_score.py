@@ -11,6 +11,8 @@ def main():
         print("Invalid score")
     else:
         print(determine_score(score))
+    score = random.randint(1, 100)
+    print(determine_score(score))
 
 
 def determine_score(score):
