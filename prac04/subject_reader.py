@@ -34,7 +34,7 @@ def display_data(data):
     """Displays data in a list."""
     longest_name = get_longest_name(data)
     for i in data:
-        print(f"{i[0]} is taught by {i[1]:<{longest_name}} and has {i[2]} students")
+        print(f"{i[0]} is taught by {i[1]:<{longest_name}} and has {i[2]:>3} students")
 
 
 def get_longest_name(data):
